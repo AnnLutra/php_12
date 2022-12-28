@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header, .card{
+    text-align: center;
+}
+header {
+    padding: 20px;
+    color: rgb(68, 1, 68);
+}
+.card .title {
+    color: rgb(68, 1, 68);
+    padding: 20px;
+    font-size: 28px;
+}
+.card{
+    border: 1px solid rgb(238, 4, 254);
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:rgba(250, 186, 250, 0.256)
+}
+
+.form {
+    padding: 10px;
+    font-size: 24px;
+}
+.form-btn-row {
+    padding: 20px;
+}
+
+button {
+    padding: 15px;
+    margin: 0 100px;
+    background-color:rgba(154, 63, 245, 0.353);
+    font-size: 20px;
+}
+.person {
+    font-size: 26px;
+    color:blueviolet;
+    text-align: center;
+    padding: 20px;
+}
+
+.gender, .couple {
+   
+    text-align: center;
+    padding: 20px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 500px;
+    background-image: url(cats.png);
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
